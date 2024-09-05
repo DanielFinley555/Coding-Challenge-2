@@ -21,7 +21,7 @@ function calculateTip(bill) {
 }
 
 // Testing the function
-console.log("Tip for $100: $",calculateTip(100));
+console.log(`Tip for $100: $${calculateTip(100)}`);
 
 
 
