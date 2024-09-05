@@ -27,11 +27,24 @@ console.log("Tip for $100: $",calculateTip(100));
 
 // Task 4: Utilize Arrays
 
+//Data Set 1
 const bills = [275, 40, 430];
 const tips = bills.map(bill => calculateTip(bill));
 const totals = bills.map((bill, index) => bill + tips[index]);
 
-console.log("Bills: ", bills);
-console.log("Tips: ", tips);
-console.log("Totals: ", totals);
+console.log("Bills Set 1: ", bills);
+console.log("Tips Set 1: ", tips);
+console.log("Totals Set 1: ", totals);
 
+
+
+// Task 5: Test Data
+
+//Data Set 2
+const bills2 = [125, 555, 44];
+const tips2 = bills2.map(bill => calculateTip(bill));
+const totals2 = bills2.map((bill, index) => bill + tips2[index]);
+
+console.log("Bills Set 2: ", bills2);
+console.log("Tips Set 2: ", tips2);
+console.log("Totals Set 2: ", totals2);
